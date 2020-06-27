@@ -8,7 +8,7 @@ public class NavAgent : MonoBehaviour
 {
     NavMeshAgent agent;
     [SerializeField]
-    public iDance CurrentDanceMode;
+    public iDance CurrentDanceMode = null;
 
     // Start is called before the first frame update
     void Start()
@@ -26,8 +26,6 @@ public class NavAgent : MonoBehaviour
                 Debug.DrawLine(agent.path.corners[i], agent.path.corners[i+1], Color.green);
             }
         }
-
-        //CurrentDanceMode.dance
     }
 
     public float GetPathDistRemaining()
