@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dance_ : MonoBehaviour, iDance
+public class Dance_Placeholder1 : MonoBehaviour, iDance
 {
-    // Start is called before the first frame update
-    void Start()
+    public void dance(List<NavAgent> agentsList)
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Setup(List<NavAgent> agentsList)
     {
-        
+
     }
 }
