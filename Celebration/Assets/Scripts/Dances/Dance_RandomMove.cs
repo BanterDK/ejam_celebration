@@ -6,11 +6,6 @@ public class Dance_RandomMove : MonoBehaviour, iDance
 {
     private List<NavAgent> agentsList;
 
-    //public Dance_RandomMove(List<NavAgent> agentsList)
-    //{
-    //    this.agentsList = agentsList;
-    //}
-
     public void Setup(List<NavAgent> agentsList)
     {
         this.agentsList = agentsList;
@@ -28,6 +23,4 @@ public class Dance_RandomMove : MonoBehaviour, iDance
             }
         }
     }
-
-
 }
