@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public interface iDance
 {
     //public int abc { get; set; } = 1;
+    //List<NavAgent> agentsList {get; set;}
 
     /// <summary>
     /// Common dance function so NavAgentManager can call current dance, more efficent that lots of if statements checking current dance to run correct code.

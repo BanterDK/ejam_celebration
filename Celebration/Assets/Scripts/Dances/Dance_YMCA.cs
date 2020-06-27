@@ -11,11 +11,6 @@ public class Dance_YMCA : MonoBehaviour, iDance
     /// </summary>
     Vector2[] AgentFormationPositions;
 
-    //public Dance_YMCA(List<NavAgent> agentsList)
-    //{
-
-    //}
-
     public void Setup(List<NavAgent> agentsList)
     {
         this.agentsList = agentsList;
@@ -53,17 +48,4 @@ public class Dance_YMCA : MonoBehaviour, iDance
             agentIndex++;
         }
     }
-
-
-    //// Start is called before the first frame update
-    //void Start()
-    //{
-
-    //}
-
-    //// Update is called once per frame
-    //void Update()
-    //{
-
-    //}
 }
