@@ -133,16 +133,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -218,16 +232,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -303,16 +331,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -480,16 +522,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -609,16 +665,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -694,16 +764,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -779,16 +863,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -985,16 +1083,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1070,16 +1182,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1155,16 +1281,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1240,16 +1380,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1339,7 +1493,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678388599}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
@@ -1419,16 +1573,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1504,16 +1672,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1589,16 +1771,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1715,7 +1911,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.96
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1757,16 +1953,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1842,16 +2052,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -1927,16 +2151,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2012,16 +2250,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2097,16 +2349,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2182,16 +2448,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 116
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2267,16 +2547,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2340,6 +2634,99 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b446411d7138e84ba1eb3342b422822, type: 3}
+--- !u!1 &1317286328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317286332}
+  - component: {fileID: 1317286331}
+  - component: {fileID: 1317286330}
+  - component: {fileID: 1317286329}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!65 &1317286329
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317286328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1317286330
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317286328}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1317286331
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317286328}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1317286332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317286328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.79, y: 1.0578732, z: 14.48}
+  m_LocalScale: {x: 3.3792, y: 3.3792, z: 3.3792}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1381980356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2352,16 +2739,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2437,16 +2838,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2522,16 +2937,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2607,16 +3036,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2692,16 +3135,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2839,8 +3296,7 @@ PrefabInstance:
     - target: {fileID: 13615390, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: ba92fb44336020f40bdf294bb66bc9da,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 13783410, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2859,16 +3315,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -2944,16 +3414,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -3029,16 +3513,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -3114,16 +3612,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -3199,16 +3711,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
@@ -3284,16 +3810,30 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 4ea3ed2d7b8ef9842aedec207b1054b5, type: 2}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322045616701548530, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2185743653247102067, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 2e8e4a297a6dadb4a9868998b57f0067,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244792251760802074, guid: 0b446411d7138e84ba1eb3342b422822,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6018124485255836911, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
