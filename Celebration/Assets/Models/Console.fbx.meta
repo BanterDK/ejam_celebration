@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 238090fb5182e544c85c92ed47416453
+guid: f5ccfb431896f4b278b9dfe572438819
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
@@ -7,18 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CRT_Mat
-    second: {fileID: 2100000, guid: 0f7384cdb201db14aa0b71b0407efac9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Keys
-    second: {fileID: 2100000, guid: 3b46514daf281d443a973a6e2b9f4f32, type: 2}
+    second: {fileID: 2100000, guid: 866c72c3ed2df6847b35ef8fed2e95c5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic
-    second: {fileID: 2100000, guid: 0858c5aefa4a759489b2564916c3dd1e, type: 2}
+    second: {fileID: 2100000, guid: 1072435ab2b63ab4ea97ff04c1a76241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic black
+    second: {fileID: 2100000, guid: 8522fdabd0d6779458527bbde50d1e80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: d6b4ba95478b61d48901c0500c7aa9a6, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -49,7 +54,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.5
+    globalScale: 50
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -95,7 +100,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.5
+    globalScale: 50
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
