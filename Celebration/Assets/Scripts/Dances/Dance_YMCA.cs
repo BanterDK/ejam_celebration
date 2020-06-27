@@ -34,18 +34,24 @@ public class Dance_YMCA : MonoBehaviour, iDance
     void generateAgentFormationPositions(int agents)
     {
         int agentIndex = 0;
-        int X = 0;
+        int X = -10;
         int Z = 0;
-        int padding = 2;
+        int padding = 1;
+        int rankSize = 5;
 
         /// loop through every agent and generate a X and Z coord, Colls and Rows
         for (int i = 0; i < agents; i++)
         {
-            AgentFormationPositions[agentIndex].x = X;
-            AgentFormationPositions[agentIndex].y = Z;
+            AgentFormationPositions[i].x = X;
+            AgentFormationPositions[i].y = Z;
+
             X += padding;
-            Z += padding;
-            agentIndex++;
+            if (i%rankSize == 0 && i != 0)
+            {
+                //X -= (padding * i);
+                X -= rankSize + 1;
+                Z += padding;
+            }
         }
     }
 }
