@@ -4,11 +4,34 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    
+    private float timer;
+    private List<Transform> spawnPoints;
+
+    [Header("Counters")]
+    public int spawnCount;
+
+    [Header("Container Hookups")]
+    public GameObject spawnContainer;
+
+    [Header("Prefab Hookups")]
+    public GameObject floppyDisk_prefab;
 
     // Start is called before the first frame update
     void Start()
     {
+        spawnPoints = new List<Transform>();
+        spawnCount = spawnContainer.transform.childCount;
+
+        //TO DO : Limit spawn total & Attach colliders to items
+        for (int i = 0; i < spawnCount; i++)
+        {
+            spawnPoints.Add(spawnContainer.transform.GetChild(i));
+        }
+        for (int i = 0; i < spawnCount; i++)
+        {
+            Instantiate(floppyDisk_prefab, spawnPoints[0].transform);
+            spawnPoints.Remove(spawnPoints[0]);
+        }
         
     }
 
