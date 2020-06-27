@@ -7,6 +7,8 @@ using UnityEngine.AI;
 public class NavAgent : MonoBehaviour
 {
     NavMeshAgent agent;
+    [SerializeField]
+    public iDance CurrentDanceMode;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,7 @@ public class NavAgent : MonoBehaviour
             }
         }
 
+        //CurrentDanceMode.dance
     }
 
     public float GetPathDistRemaining()
