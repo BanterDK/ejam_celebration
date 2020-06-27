@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dance_Placeholder1 : MonoBehaviour, iDance
 {
-    public void dance(List<NavAgent> agentsList)
+    public void Dance()
     {
 
     }

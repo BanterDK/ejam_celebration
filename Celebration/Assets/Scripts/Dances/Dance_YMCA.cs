@@ -18,7 +18,7 @@ public class Dance_YMCA : MonoBehaviour, iDance
         generateAgentFormationPositions(agentsList.Count);
     }
 
-    public void dance()
+    public void Dance()
     {
         for (int i = 0; i < agentsList.Count; i++)
         {

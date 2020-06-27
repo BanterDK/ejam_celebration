@@ -6,8 +6,6 @@ public class NavAgentManager : MonoBehaviour
 {
     [SerializeField]
     List<NavAgent> agentsList = new List<NavAgent>();
-    //[SerializeField]
-    //public iDance CurrentDanceMode;
 
     // Start is called before the first frame update
     void Start()
@@ -15,23 +13,36 @@ public class NavAgentManager : MonoBehaviour
         agentsList.AddRange(FindObjectsOfType<NavAgent>());
         for (int i = 0; i < agentsList.Count; i++)
         {
-            //setAgentCurrentDanceMode()
+            setAgentCurrentDanceModeDance_RandomMove(agentsList[i]);
         }
     }
 
-    public void setAgentCurrentDanceMode(NavAgent agent, iDance dance)
+    /// <summary>
+    /// Use to set an agent to RandomMove mode
+    /// </summary>
+    public void setAgentCurrentDanceModeDance_RandomMove(NavAgent agent)
     {
-        //agent.CurrentDanceMode = gameObject.AddComponent<Dance_RandomMove>();
-        //agent.CurrentDanceMode = gameObject.AddComponent<>();
+        agent.CurrentDanceMode = agent.gameObject.AddComponent<Dance_RandomMove>();
         agent.CurrentDanceMode.Setup(agentsList);
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Use to set an agent to YMCA mode
+    /// </summary>
+    public void setAgentCurrentDanceModeDance_YMCA(NavAgent agent)
+    {
+        agent.CurrentDanceMode = agent.gameObject.AddComponent<Dance_YMCA>();
+        agent.CurrentDanceMode.Setup(agentsList);
+    }
+
+    /// <summary>
+    /// Update runs the dance code for every agent
+    /// </summary>
     void Update()
     {
         foreach (NavAgent agent in agentsList)
         {
-            //agent.CurrentDanceMode.dance(agentsList);
+            agent.CurrentDanceMode.Dance();
         }
     }
 

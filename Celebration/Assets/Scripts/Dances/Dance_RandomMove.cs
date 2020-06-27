@@ -11,7 +11,7 @@ public class Dance_RandomMove : MonoBehaviour, iDance
         this.agentsList = agentsList;
     }
 
-    public void dance(List<NavAgent> agentsList)
+    public void Dance()
     {
 
         for (int i = 0; i < agentsList.Count; i++)
