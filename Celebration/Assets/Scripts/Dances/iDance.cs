@@ -15,5 +15,6 @@ public interface iDance
     /// 
     void Dance();
 
+    void Setup(NavAgent agent);
     void Setup(List<NavAgent> agentsList);
 }

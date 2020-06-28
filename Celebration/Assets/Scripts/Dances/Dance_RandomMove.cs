@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Dance_RandomMove : MonoBehaviour, iDance
 {
-    private List<NavAgent> agentsList;
-    NavAgentAreaLimit navAgentAreaLimit = new NavAgentAreaLimit();
+    NavAgent agent;
+    NavAgentAreaLimit navAgentAreaLimit;
 
-    public void Setup(List<NavAgent> agentsList)
+    public void Setup(NavAgent agent)
     {
-        this.agentsList = agentsList;
+        this.agent = agent;
+        navAgentAreaLimit = FindObjectOfType<NavAgentAreaLimit>();
     }
 
     public Vector3 generateAndCalculatePath(Vector2 xRange, Vector2 yRange, Vector2 zRange)
@@ -19,17 +20,15 @@ public class Dance_RandomMove : MonoBehaviour, iDance
 
     public void Dance()
     {
-
-        for (int i = 0; i < agentsList.Count; i++)
+        if (agent.GetPathDistRemaining() <= 1f)
         {
-            if (agentsList[i].GetPathDistRemaining() <= 1f)
-            {
-                /// this sets the destination of each NavAgent, more sophisticated algorithm wrapper should be made to add areas limits
-
-                //agentsList[i].SetDest(new Vector3(Random.Range(-20, 20), 0, Random.Range(-20, 20)));
-                agentsList[i].SetDest(navAgentAreaLimit.generatePointInsideArea(gameObject.GetComponent<NavAgent>(), this));
-                
-            }
+            /// this sets the destination of each NavAgent, more sophisticated algorithm wrapper should be made to add areas limits
+            agent.SetDest(navAgentAreaLimit.generatePointInsideArea(agent, this));        
         }
+    }
+
+    public void Setup(List<NavAgent> agentsList)
+    {
+        throw new System.NotImplementedException();
     }
 }

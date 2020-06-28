@@ -42,7 +42,7 @@ public class Dance_YMCA : MonoBehaviour, iDance
         float Z = 0;
         float paddingX = 0.75f;
         float paddingY = 1f;
-        int rankSize = 15;
+        int rankSize = 5;
 
         /// loop through every agent and generate a X and Z coord, Colls and Rows
         for (int i = 0; i < agents; i++)
@@ -51,11 +51,16 @@ public class Dance_YMCA : MonoBehaviour, iDance
             AgentFormationPositions[i].y = Z;
 
             X += paddingX;
-            if (i%rankSize == 0 && i != 0)
+            if (i % rankSize == 0 && i != 0)
             {
                 X -= (paddingX * rankSize);
                 Z += paddingY;
             }
         }
+    }
+
+    public void Setup(NavAgent agent)
+    {
+        throw new System.NotImplementedException();
     }
 }
