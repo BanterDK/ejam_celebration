@@ -4,30 +4,14 @@ using UnityEngine;
 
 public class NavAgentAreaLimit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Vector3 generatePointInsideArea(NavAgent agent, iDance script)
     {
-        
-    }
+        int areaIndex = Random.Range(0, agent.AreasAllowed.Count);
+        Vector2 xRange = new Vector2((agent.AreasAllowed[areaIndex].transform.position.x - agent.AreasAllowed[areaIndex].gameObject.GetComponent<Collider>().bounds.extents.x), (agent.AreasAllowed[areaIndex].transform.position.x + agent.AreasAllowed[areaIndex].gameObject.GetComponent<Collider>().bounds.extents.x));
+        Vector2 yRange = new Vector2((agent.AreasAllowed[areaIndex].transform.position.y - agent.AreasAllowed[areaIndex].gameObject.GetComponent<Collider>().bounds.extents.y), (agent.AreasAllowed[areaIndex].transform.position.y + agent.AreasAllowed[areaIndex].gameObject.GetComponent<Collider>().bounds.extents.y));
+        Vector2 zRange = new Vector2((agent.AreasAllowed[areaIndex].transform.position.z - agent.AreasAllowed[areaIndex].gameObject.GetComponent<Collider>().bounds.extents.z), (agent.AreasAllowed[areaIndex].transform.position.z + agent.AreasAllowed[areaIndex].gameObject.GetComponent<Collider>().bounds.extents.z));
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vector3 point = script.generateAndCalculatePath(xRange, yRange, zRange);
+        return point;
     }
-
-    bool checkBoundsForDest(Collider collider, Vector3 point)
-    {
-        if (collider.bounds.Contains(point))
-        {
-            Debug.Log("In Bounds");
-            return true;
-        }
-        return false;
-    }
-
-    //Vector3 generatePointInsideArea()
-    //{
-    //
-    //}
 }
