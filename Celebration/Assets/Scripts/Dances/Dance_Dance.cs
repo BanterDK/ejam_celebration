@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dance_Macarena : MonoBehaviour, iDance
+public class Dance_Dance : MonoBehaviour, iDance
 {
     public void Setup(NavAgent agent)
     {

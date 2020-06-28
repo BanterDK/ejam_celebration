@@ -37,4 +37,13 @@ public class NavAgent : MonoBehaviour
     {
         agent.SetDestination(Dest);
     }
+
+    public bool IsCurrentlyMoving()
+    {
+        if (agent.hasPath)
+        {
+            return true;
+        }
+        return false;
+    }
 }
