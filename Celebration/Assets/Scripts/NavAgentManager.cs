@@ -6,7 +6,6 @@ public class NavAgentManager : MonoBehaviour
 {
     //[SerializeField]
     List<NavAgent> agentsList = new List<NavAgent>();
-     public Animator anim;
 
     ///Note, to exit, anim.setTrigger("Walk")
 
@@ -31,6 +30,13 @@ public class NavAgentManager : MonoBehaviour
     /// Use to set an agent to RandomMove mode
     /// </summary>
     public void setAgentCurrentDanceModeDance_RandomMove(NavAgent agent)
+    {
+        agent.CurrentDanceMode = agent.gameObject.AddComponent<Dance_RandomMove>();
+        agent.CurrentDanceMode.Setup(agent);
+    }
+
+
+    public void setAgentCurrentDanceModeDance_Dance(NavAgent agent)
     {
         agent.CurrentDanceMode = agent.gameObject.AddComponent<Dance_RandomMove>();
         agent.CurrentDanceMode.Setup(agent);
