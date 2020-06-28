@@ -3014,6 +3014,18 @@ Transform:
   m_Father: {fileID: 297871534}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &263114503 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2245006049844135405, guid: 8ae6fb3f7a1d64422a0e9d61d5144255,
+    type: 3}
+  m_PrefabInstance: {fileID: 67186062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d49b0df134e5934d8296fceaa0a9c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &297871533
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,6 +3315,8 @@ MonoBehaviour:
   cam: {fileID: 1596443266}
   controller: {fileID: 0}
   isGrounded: 0
+  canPickUp: 0
+  pickupID: {fileID: 0}
   HorizontalAnimSmoothTime: 0.2
   VerticalAnimTime: 0.2
   StartAnimTime: 0.3
@@ -3356,6 +3370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8948938bae3cbce449acc1b5bb0027d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRef: {fileID: 263114503}
   spawnCount: 0
   spawnContainer: {fileID: 297871533}
   floppyDisk_prefab: {fileID: 6157902679055922634, guid: 472886d4b1719c64a9f3e0a1478637e3,

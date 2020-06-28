@@ -59,8 +59,26 @@ public class CharInput : MonoBehaviour
 
         if (Input.GetAxis("Grab") > 0)
         {
-            //TO DO: Delete from list & Create UI feedback
+            //TO DO: Delete from list & Create UI feedback 
             Destroy(pickupID);
+        }
+
+        //TO DO: Yell  & lock move
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            anim.SetTrigger("Yell");
+        }
+
+        //TO DO: Defeat state & lock move
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            anim.SetTrigger("Defeat");
+        }
+
+        //TO DO: Typing Sequence trigger (When grab pressed at console w/ item) & lock move
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            anim.SetTrigger("Typing");
         }
 
         //If you don't need the character grounded then get rid of this part.
