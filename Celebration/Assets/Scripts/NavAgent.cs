@@ -7,8 +7,9 @@ using UnityEngine.AI;
 public class NavAgent : MonoBehaviour
 {
     NavMeshAgent agent;
-    [SerializeField]
     public iDance CurrentDanceMode = null;
+    public List<Collider> AreasAllowed = new List<Collider>();
+
 
     // Start is called before the first frame update
     void Start()
