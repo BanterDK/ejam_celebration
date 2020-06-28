@@ -33,10 +33,9 @@ public class NavAgent : MonoBehaviour
         return agent.remainingDistance;
     }
 
-    public IEnumerator SetDest(Vector3 Dest)
+    public void SetDest(Vector3 Dest)
     {
         agent.SetDestination(Dest);
-        yield return null;
     }
 
     public bool IsCurrentlyMoving()

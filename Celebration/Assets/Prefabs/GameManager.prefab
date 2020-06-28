@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 5904510582450239045}
   - component: {fileID: 5904510582450239046}
   - component: {fileID: 5904510582450239044}
-  - component: {fileID: 5904510582450239042}
-  - component: {fileID: 5904510582450239043}
   - component: {fileID: 3312219781634529292}
   m_Layer: 0
   m_Name: GameManager
@@ -49,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diskCount: 5
   playerRef: {fileID: 0}
-  randomInt: 
+  spawnPoints: []
   spawnContainer: {fileID: 0}
   floppyDisk_prefab:
   - {fileID: 5778591748237372062, guid: 66c2193937fdced43b256e01231923d0, type: 3}
@@ -59,6 +57,7 @@ MonoBehaviour:
   - {fileID: 5778591748237372062, guid: 8a80be9a93948ca4190a916091783233, type: 3}
   vo_AudioSource: {fileID: 0}
   sound_AudioSource: {fileID: 0}
+  music: []
 --- !u!114 &5904510582450239044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,30 +71,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeLimit: 0
---- !u!114 &5904510582450239042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5904510582450239047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed65fdf8661932a4c9771fe6c44e15e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5904510582450239043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5904510582450239047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e452db0b70db35247895c4b380ae10a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &3312219781634529292
 AudioSource:
   m_ObjectHideFlags: 0

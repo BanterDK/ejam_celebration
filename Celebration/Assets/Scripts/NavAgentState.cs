@@ -27,17 +27,17 @@ public class NavAgentState : MonoBehaviour
         thisAgent = gameObject.GetComponent<NavAgent>();
         anim = gameObject.GetComponent<Animator>();
 
-        updateState(States.Walk);
+        updateState(States.Gabber);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Random.Range(0, 1000) <= 1)
+        if (Random.Range(0, 1000) <= 5)
         {
             if ((thisAgent.IsCurrentlyMoving() == false && currentState != States.Die && currentState != States.YMCA) || forceUpdate == true)
             {
-                Debug.Log("updateState");
+                //Debug.Log("updateState");
                 forceUpdate = false;
                 Debug.Log(forceUpdate);
                 updateState((States)Random.Range(0, 4));
@@ -105,6 +105,6 @@ public class NavAgentState : MonoBehaviour
             default:
                 break;
         }
-        Debug.Log(currentState);
+        //Debug.Log(currentState);
     }
 }
