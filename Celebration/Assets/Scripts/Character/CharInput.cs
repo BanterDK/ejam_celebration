@@ -9,6 +9,20 @@ using UnityEngine;
 public class CharInput : MonoBehaviour
 {
 
+    [Header("Object References")]
+    public GameManager gameManager;
+    private AudioSource vo_Player;
+    private Object obj;
+
+    [Header("Audio References")]
+    public AudioClip vo_countdown;
+    public AudioClip vo_dancing;
+    public AudioClip vo_acquired;
+    public AudioClip vo_submitted;
+    public AudioClip vo_moveit;
+    public AudioClip vo_savetheparty;
+    public AudioClip vo_timeisrunningout;
+
     public float velocity = 9;
     [Space]
 
@@ -23,6 +37,7 @@ public class CharInput : MonoBehaviour
     public Camera cam;
     public CharacterController controller;
     public bool isGrounded;
+
 
     [Header("Pickup")]
     public bool canPickUp; //Reference to pick up object
@@ -49,6 +64,7 @@ public class CharInput : MonoBehaviour
         anim = GetComponent<Animator>();
         cam = Camera.main;
         controller = GetComponent<CharacterController>();
+        vo_Player = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -61,6 +77,7 @@ public class CharInput : MonoBehaviour
         {
             //TO DO: Delete from list & Create UI feedback 
             Destroy(pickupID);
+            vo_Event(vo_acquired);
         }
 
         //TO DO: Yell  & lock move
@@ -79,6 +96,8 @@ public class CharInput : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T))
         {
             anim.SetTrigger("Typing");
+            vo_Event(vo_submitted);
+            gameManager.music_Change();
         }
 
         //If you don't need the character grounded then get rid of this part.
@@ -110,6 +129,12 @@ public class CharInput : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredMoveDirection), desiredRotationSpeed);
             controller.Move(desiredMoveDirection * Time.deltaTime * velocity);
         }
+    }
+
+    public void vo_Event(AudioClip vo_clip)
+    {
+        vo_Player.clip = vo_clip;
+        vo_Player.Play();
     }
 
     public void RotateTowards(Transform t)
