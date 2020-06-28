@@ -20,10 +20,10 @@ public class NavAgentManager : MonoBehaviour
     void Start()
     {
         agentsList.AddRange(FindObjectsOfType<NavAgent>());
-        for (int i = 0; i < agentsList.Count; i++)
-        {
-            setAgentCurrentDanceModeDance_RandomMove(agentsList[i]);
-        }
+        //for (int i = 0; i < agentsList.Count; i++)
+        //{
+        //    setAgentCurrentDanceModeDance_RandomMove(agentsList[i]);
+        //}
     }
 
     /// <summary>
@@ -38,7 +38,7 @@ public class NavAgentManager : MonoBehaviour
 
     public void setAgentCurrentDanceModeDance_Dance(NavAgent agent)
     {
-        agent.CurrentDanceMode = agent.gameObject.AddComponent<Dance_RandomMove>();
+        agent.CurrentDanceMode = agent.gameObject.AddComponent<Dance_Dance>();
         agent.CurrentDanceMode.Setup(agent);
     }
 

@@ -409,7 +409,7 @@ PrefabInstance:
     - target: {fileID: 2469942542885812000, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}
       propertyPath: AreasAllowed.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2469942542885812000, guid: 0b446411d7138e84ba1eb3342b422822,
         type: 3}

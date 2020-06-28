@@ -16,11 +16,13 @@ public class Dance_Dance : MonoBehaviour, iDance
 
     public void Dance()
     {
-        throw new System.NotImplementedException();
+        //Debug.Log("Dancing");
+        //throw new System.NotImplementedException();
     }
 
     public Vector3 generateAndCalculatePath(Vector2 xRange, Vector2 yRange, Vector2 zRange)
     {
-        throw new System.NotImplementedException();
+        return new Vector3();
+        //throw new System.NotImplementedException();
     }
 }

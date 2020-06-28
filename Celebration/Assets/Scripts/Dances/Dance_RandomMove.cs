@@ -23,7 +23,11 @@ public class Dance_RandomMove : MonoBehaviour, iDance
         if (agent.GetPathDistRemaining() <= 1f)
         {
             /// this sets the destination of each NavAgent, more sophisticated algorithm wrapper should be made to add areas limits
-            agent.SetDest(navAgentAreaLimit.generatePointInsideArea(agent, this));        
+
+            this.StartCoroutine(agent.SetDest(navAgentAreaLimit.generatePointInsideArea(agent, this)));
+
+            NavAgentState s = agent.GetComponent<NavAgentState>();
+            this.StartCoroutine(s.forceUpdateState(Random.Range(0, 3))); 
         }
     }
 
