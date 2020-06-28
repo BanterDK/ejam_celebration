@@ -9,7 +9,7 @@ public class Dance_Placeholder1 : MonoBehaviour, iDance
         throw new System.NotImplementedException();
     }
 
-    public Vector3 generateAndCalculatePath()
+    public Vector3 generateAndCalculatePath(Vector2 xRange, Vector2 yRange, Vector2 zRange)
     {
         throw new System.NotImplementedException();
     }

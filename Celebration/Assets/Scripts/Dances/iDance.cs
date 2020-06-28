@@ -6,7 +6,7 @@ public interface iDance
     /// Used for Area Limiting
     /// Generate point for agent to travel too and calulate path here
     /// </summary>
-    Vector3 generateAndCalculatePath();
+    Vector3 generateAndCalculatePath(Vector2 xRange, Vector2 yRange, Vector2 zRange);
 
     /// <summary>
     /// Common dance function so NavAgentManager can call current dance, more efficent that lots of if statements checking current dance to run correct code.

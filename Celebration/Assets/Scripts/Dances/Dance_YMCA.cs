@@ -18,7 +18,7 @@ public class Dance_YMCA : MonoBehaviour, iDance
         generateAgentFormationPositions(agentsList.Count);
     }
 
-    public Vector3 generateAndCalculatePath()
+    public Vector3 generateAndCalculatePath(Vector2 xRange, Vector2 yRange, Vector2 zRange)
     {
         throw new System.NotImplementedException();
     }
@@ -30,8 +30,8 @@ public class Dance_YMCA : MonoBehaviour, iDance
             if (agentsList[i].GetPathDistRemaining() <= 1f)
             {
                 /// this sets the destination of each NavAgent, more sophisticated algorithm wrapper should be made to add areas limits 
-                //agentsList[i].SetDest(new Vector3(AgentFormationPositions[i].x, 0, AgentFormationPositions[i].y));
-                agentsList[i].SetDest(generateAndCalculatePath());
+                agentsList[i].SetDest(new Vector3(AgentFormationPositions[i].x, 0, AgentFormationPositions[i].y));
+                //agentsList[i].SetDest(generateAndCalculatePath());
             }
         }
     }
@@ -58,5 +58,4 @@ public class Dance_YMCA : MonoBehaviour, iDance
             }
         }
     }
-
 }
