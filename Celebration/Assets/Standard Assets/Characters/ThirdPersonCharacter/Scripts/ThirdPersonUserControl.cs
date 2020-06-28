@@ -12,7 +12,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
 
+        [Header("Pickup")]
         public bool canPickUp; //Reference to pick up object
+        public GameObject pickupID;
         
         private void Start()
         {
@@ -51,7 +53,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             float v = CrossPlatformInputManager.GetAxis("Vertical");
 
-
+            if(canPickUp)
+            {
+                if (CrossPlatformInputManager.GetAxis("Grab") > 0)
+                    //TO DO: Delete from list & Create UI feedback
+                    Destroy(pickupID);
+            }
 
 
             // calculate move direction to pass to character
@@ -68,7 +75,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
         #if !MOBILE_INPUT
 			// walk speed multiplier
-	        if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
+	        //if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
         #endif
 
             // pass all parameters to the character control script

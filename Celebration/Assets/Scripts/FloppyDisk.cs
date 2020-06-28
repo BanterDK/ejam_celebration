@@ -10,7 +10,7 @@ public class FloppyDisk : MonoBehaviour
 
     [Header("References")]
     public GameManager gameManager;
-    public UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl playerRef;
+    public CharInput playerRef;
 
     //[Header("Effects")]
     //ParticleSystem
@@ -24,7 +24,8 @@ public class FloppyDisk : MonoBehaviour
     public void pickupAvailable(bool a)
     {
         canBePickedUp = a;
-        //playerRef. 
+        playerRef.canPickUp = a;
+        playerRef.pickupID = gameObject;
     }
 
     private void OnTriggerEnter(Collider c)

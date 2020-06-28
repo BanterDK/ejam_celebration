@@ -22,10 +22,8 @@ public class TimerManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(currentTime);
         minutesPassed = (int)(currentTime/60);
         secondsPassed = (int)currentTime%60;
-        Debug.Log(minutesPassed + " minutes and " + secondsPassed + " seconds have passed");
 
         if (currentTime >= timeLimit) {
             timeUp = true;
