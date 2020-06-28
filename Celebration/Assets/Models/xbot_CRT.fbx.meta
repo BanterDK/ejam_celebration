@@ -12,7 +12,22 @@ ModelImporter:
   - first:
       74: 6165553400957861818
     second: Armature|Armature|mixamo.com|Layer0.001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face1
+    second: {fileID: 2100000, guid: 15a57789b99afe445b57698f040e9170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 1c879f147fcb1b445a374eac596eb6d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Dark
+    second: {fileID: 2100000, guid: 361345e62b199e54eb5d8bc9ec954856, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
