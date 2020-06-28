@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     private float timer;
     private List<Transform> spawnPoints;
+    public UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl playerRef;
 
     [Header("Counters")]
     public int spawnCount;
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Prefab Hookups")]
     public GameObject floppyDisk_prefab;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -30,14 +32,21 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < spawnCount; i++)
         {
             Instantiate(floppyDisk_prefab, spawnPoints[0].transform);
+
+            // //Give Disk manager reference
+            FloppyDisk diskReference = spawnPoints[0].GetChild(0).GetComponent<FloppyDisk>();
+            diskReference.gameManager = this;
+            diskReference.playerRef = playerRef;
+
+            //Spawn Cleanup
             spawnPoints.Remove(spawnPoints[0]);
         }
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

@@ -6,7 +6,27 @@ ModelImporter:
   - first:
       74: -4791504522942941401
     second: Armature|Armature|mixamo.com|Layer0
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beta_Joints_MAT
+    second: {fileID: 2100000, guid: 400b1c7fd14c27743a1e5154d5330520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face1
+    second: {fileID: 2100000, guid: 9561c185015ff8948a0267b1add268b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 0bb4eb4b792606641909871bdef16839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asdf1_Beta_HighLimbsGeoSG2
+    second: {fileID: 2100000, guid: dcc1b4fc5b870124b86b3e2b1a328b0a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
