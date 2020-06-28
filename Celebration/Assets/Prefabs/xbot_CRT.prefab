@@ -1980,7 +1980,7 @@ Animation:
   m_GameObject: {fileID: 6018124485255836911}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 7e5b2b94af058324a97a556ca6e9a2c7, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
