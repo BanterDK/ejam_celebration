@@ -26,8 +26,8 @@ public class NavAgentAreaLimit : MonoBehaviour
         return false;
     }
 
-    Vector3 generatePointInsideArea()
-    {
-
-    }
+    //Vector3 generatePointInsideArea()
+    //{
+    //
+    //}
 }
