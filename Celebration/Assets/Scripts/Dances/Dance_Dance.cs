@@ -6,12 +6,12 @@ public class Dance_Dance : MonoBehaviour, iDance
 {
     public void Setup(NavAgent agent)
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
     }
 
     public void Setup(List<NavAgent> agentsList)
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
     }
 
     public void Dance()

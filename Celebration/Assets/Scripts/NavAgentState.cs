@@ -39,6 +39,7 @@ public class NavAgentState : MonoBehaviour
             {
                 Debug.Log("updateState");
                 forceUpdate = false;
+                Debug.Log(forceUpdate);
                 updateState((States)Random.Range(0, 4));
             }
         }
@@ -46,9 +47,8 @@ public class NavAgentState : MonoBehaviour
 
     public IEnumerator forceUpdateState(int stateToUpdateTo)
     {
-        yield return new WaitUntil(() => thisAgent.IsCurrentlyMoving() == false);
+        yield return new WaitUntil(() => thisAgent.GetPathDistRemaining() <= 1f);
             forceUpdate = true;
-            //updateState((States)stateToUpdateTo);
     }
 
     void removeOldState()
