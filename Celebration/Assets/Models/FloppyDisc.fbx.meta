@@ -3,7 +3,22 @@ guid: c763a7acc2db4c845a0a7fb573dbbc75
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floopy Label
+    second: {fileID: 2100000, guid: 07cb9b1a6e33293458fb360a304daa15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: ab39d31c80b79e84abe3729e7214a311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic black
+    second: {fileID: 2100000, guid: 8a1908b4f21e4c04bb64e382a2d1cb75, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
