@@ -20,29 +20,61 @@ public class NavAgentState : MonoBehaviour
     NavAgent thisAgent;
     Animator anim;
 
+    bool forceUpdate = false;
     void Start()
     {
         agentManager = FindObjectOfType<NavAgentManager>();
         thisAgent = gameObject.GetComponent<NavAgent>();
         anim = gameObject.GetComponent<Animator>();
 
-        //updateState(States.Macarena);
+        updateState(States.Walk);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Random.Range(0, 100) <= 5)
+        if (Random.Range(0, 1000) <= 1)
         {
-            if (thisAgent.IsCurrentlyMoving() == false)
+            if ((thisAgent.IsCurrentlyMoving() == false && currentState != States.Die && currentState != States.YMCA) || forceUpdate == true)
             {
+                Debug.Log("updateState");
+                forceUpdate = false;
                 updateState((States)Random.Range(0, 4));
             }
         }
     }
 
+    public IEnumerator forceUpdateState(int stateToUpdateTo)
+    {
+        yield return new WaitUntil(() => thisAgent.IsCurrentlyMoving() == false);
+            forceUpdate = true;
+            //updateState((States)stateToUpdateTo);
+    }
+
+    void removeOldState()
+    {
+        switch (currentState)
+        {
+            case States.Macarena:
+                Destroy(gameObject.GetComponent<Dance_Dance>());
+                break;
+            case States.Wave:
+                Destroy(gameObject.GetComponent<Dance_Dance>());
+                break;
+            case States.Gabber:
+                Destroy(gameObject.GetComponent<Dance_Dance>());
+                break;
+            case States.Walk:
+                Destroy(gameObject.GetComponent<Dance_RandomMove>());
+                break;
+            default:
+                break;
+        }
+    }
+
     void updateState(States stateToUpdateTo)
     {
+        removeOldState();
         currentState = stateToUpdateTo;
         anim.SetTrigger(stateToUpdateTo.ToString());
         switch (stateToUpdateTo)
@@ -73,5 +105,6 @@ public class NavAgentState : MonoBehaviour
             default:
                 break;
         }
+        Debug.Log(currentState);
     }
 }

@@ -33,14 +33,15 @@ public class NavAgent : MonoBehaviour
         return agent.remainingDistance;
     }
 
-    public void SetDest(Vector3 Dest)
+    public IEnumerator SetDest(Vector3 Dest)
     {
         agent.SetDestination(Dest);
+        yield return null;
     }
 
     public bool IsCurrentlyMoving()
     {
-        if (agent.hasPath)
+        if (agent.hasPath || agent.pathPending)
         {
             return true;
         }
