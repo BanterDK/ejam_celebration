@@ -18,7 +18,12 @@ public class GameManager : MonoBehaviour
 
     [Header("Prefab Hookups")]
     public GameObject[] floppyDisk_prefab;
-    
+
+    [Header("Sound")]
+    public AudioSource vo_AudioSource;
+    public AudioSource sound_AudioSource;
+    public AudioClip[] music;
+    private int currentSong = -1;
 
     // Start is called before the first frame update
     void Awake()
@@ -50,7 +55,6 @@ public class GameManager : MonoBehaviour
             FloppyDisk diskReference = go.GetComponent<FloppyDisk>();
             diskReference.gameManager = this;
             diskReference.playerRef = playerRef;
-            
 
             //Spawn Cleanup
             //spawnPoints.Remove(spawnPoints[0]);
@@ -58,9 +62,24 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void music_Change()
+    {
+        currentSong++;
+        AudioClip music_clip = music[currentSong];
+        sound_AudioSource.clip = music_clip;
+        sound_AudioSource.Play();
+    }
 
-// Update is called once per frame
-void Update()
+    private void Start()
+    {
+        vo_AudioSource = playerRef.gameObject.GetComponent<AudioSource>();
+        sound_AudioSource = GetComponent<AudioSource>();
+        music_Change();
+    }
+
+
+    // Update is called once per frame
+    void Update()
     {
 
     }
