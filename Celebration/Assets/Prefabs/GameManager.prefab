@@ -46,11 +46,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8948938bae3cbce449acc1b5bb0027d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diskCount: 5
   playerRef: {fileID: 0}
-  spawnCount: 0
+  randomInt: 
   spawnContainer: {fileID: 0}
-  floppyDisk_prefab: {fileID: 6157902679055922634, guid: 472886d4b1719c64a9f3e0a1478637e3,
-    type: 3}
+  floppyDisk_prefab:
+  - {fileID: 5778591748237372062, guid: 66c2193937fdced43b256e01231923d0, type: 3}
+  - {fileID: 5778591748237372062, guid: 8ec64a2796147484aaa6cd5695319d7e, type: 3}
+  - {fileID: 5778591748237372062, guid: 41ca3ea4e8445b849883ad7cafbd08f3, type: 3}
+  - {fileID: 5778591748237372062, guid: d9c238c44dc42b342b8f47b85214989b, type: 3}
+  - {fileID: 5778591748237372062, guid: 8a80be9a93948ca4190a916091783233, type: 3}
 --- !u!114 &5904510582450239044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,3 +93,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e452db0b70db35247895c4b380ae10a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
