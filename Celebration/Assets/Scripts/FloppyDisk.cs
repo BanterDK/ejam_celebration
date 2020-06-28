@@ -6,6 +6,7 @@ public class FloppyDisk : MonoBehaviour
 {
     [Header("Stats")]
     public bool canBePickedUp;
+    public bool nextItem;
     public int itemNumber;
 
     [Header("References")]
@@ -27,6 +28,7 @@ public class FloppyDisk : MonoBehaviour
         playerRef.canPickUp = a;
         playerRef.pickupID = gameObject;
     }
+
 
     private void OnTriggerEnter(Collider c)
     {
