@@ -14,7 +14,7 @@ public class Dance_RandomMove : MonoBehaviour, iDance
     public Vector3 generateAndCalculatePath()
     {
 
-        return new Vector3(0, 0, 0);
+        return new Vector3(Random.Range(-20, 20), 0, Random.Range(-20, 20));
     }
 
     public void Dance()
