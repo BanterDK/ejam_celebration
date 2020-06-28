@@ -24,7 +24,9 @@ public class Dance_RandomMove : MonoBehaviour, iDance
         {
             /// this sets the destination of each NavAgent, more sophisticated algorithm wrapper should be made to add areas limits
 
-            this.StartCoroutine(agent.SetDest(navAgentAreaLimit.generatePointInsideArea(agent, this)));
+            //this.StartCoroutine(
+            agent.SetDest(navAgentAreaLimit.generatePointInsideArea(agent, this));
+            //);
 
             NavAgentState s = agent.GetComponent<NavAgentState>();
             this.StartCoroutine(s.forceUpdateState(Random.Range(0, 3))); 
