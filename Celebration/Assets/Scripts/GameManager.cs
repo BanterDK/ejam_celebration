@@ -7,11 +7,11 @@ public class GameManager : MonoBehaviour
     private float timer;
     public int diskCount = 5;
 
-    private List<GameObject> spawnPoints;
     public CharInput playerRef;
 
-    [Header("Counters")]
-    public List<int> randomInt = new List<int>();   //  Declare list
+    [Header("FloppyDisk spawns")]
+    public List<GameObject> spawnPoints = new List<GameObject>();
+    List<GameObject> spawnPointsBackup;
 
     [Header("Container Hookups")]
     public GameObject spawnContainer;
@@ -28,38 +28,26 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        spawnPoints = new List<GameObject>();
+        spawnPointsBackup = new List<GameObject>(spawnPoints);
+
+        int spawnLocID;
         //TO DO : Limit spawn total & Attach colliders to items
-        for (int i = 0; i < spawnContainer.transform.childCount; i++)
+        for (int i = 0; i < floppyDisk_prefab.Length; i++)
         {
-            spawnPoints.Add(spawnContainer.transform.GetChild(i).gameObject);
+            spawnLocID = Random.Range(0, spawnPoints.Count);
+            spawnFloppyDisk(floppyDisk_prefab[i], i, spawnLocID);
+            spawnPoints.RemoveAt(spawnLocID);
         }
+    }
 
-        //TO DO
-        //Randomizer
-        for (int n = 0; n < diskCount; n++)    //  Populate list
-        {
-            randomInt.Add(n);
-        }
-        int index = Random.Range(1, randomInt.Count);    //  Pick random element from the list
-        int seed = randomInt[index];    //  i = the number that was randomly picked
-        randomInt.RemoveAt(index);   //  Remove chosen element
+    public void spawnFloppyDisk(GameObject disk, int diskID, int spawnLocID)
+    {
+        GameObject go = Instantiate(floppyDisk_prefab[diskID], spawnPoints[spawnLocID].transform);
 
-        for (int i = 0; i < diskCount; i++)
-        {
-
-            //spawnPoints[i] is the index of spawnpoint in the list
-            GameObject go = Instantiate(floppyDisk_prefab[i], spawnPoints[i].transform);
-
-            //Give Disk manager reference
-            FloppyDisk diskReference = go.GetComponent<FloppyDisk>();
-            diskReference.gameManager = this;
-            diskReference.playerRef = playerRef;
-
-            //Spawn Cleanup
-            //spawnPoints.Remove(spawnPoints[0]);
-        }
-
+        //Give Disk manager reference
+        FloppyDisk diskReference = go.GetComponent<FloppyDisk>();
+        diskReference.gameManager = this;
+        diskReference.playerRef = playerRef;
     }
 
     public void music_Change()
