@@ -6,7 +6,7 @@ public class NavAgentManager : MonoBehaviour
 {
     //[SerializeField]
     List<NavAgent> agentsList = new List<NavAgent>();
-    Animator anim;
+     public Animator anim;
 
     ///Note, to exit, anim.setTrigger("Walk")
 
