@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NavAgentManager : MonoBehaviour
 {
-    [SerializeField]
+    //[SerializeField]
     List<NavAgent> agentsList = new List<NavAgent>();
     Animator anim;
 
