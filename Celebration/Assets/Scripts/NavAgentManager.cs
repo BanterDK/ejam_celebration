@@ -23,7 +23,7 @@ public class NavAgentManager : MonoBehaviour
         agentsList.AddRange(FindObjectsOfType<NavAgent>());
         for (int i = 0; i < agentsList.Count; i++)
         {
-            setAgentCurrentDanceModeDance_YMCA(agentsList[i]);
+            setAgentCurrentDanceModeDance_RandomMove(agentsList[i]);
         }
     }
 
